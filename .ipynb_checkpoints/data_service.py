@@ -45,8 +45,8 @@ def show_goods(goods):
     if kol_lines == 0:
          print("Код не знайдено")
 
-goods = get_goods()
-show_goods(goods)
+#goods = get_goods()
+#show_goods(goods)
 
 
 def get_goods_circulations():
@@ -91,5 +91,5 @@ def show_goods_circulations(goods_circulations):
     if kol_lines == 0:
          print("Код не знайдено")
 
-goods_circulations = get_goods_circulations()
-show_goods_circulations(goods_circulations)
+#goods_circulations = get_goods_circulations()
+#show_goods_circulations(goods_circulations)
