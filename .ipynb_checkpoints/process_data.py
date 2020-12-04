@@ -60,10 +60,10 @@ def create_gross_income():
         
     return gross_income_list
 
-#gross_incomes = create_gross_income()
+gross_incomes = create_gross_income()
 
-#for item in gross_incomes:
-#    print(item)
+for item in gross_incomes:
+    print(item)
 
 #print(get_goods())
 #print(get_goods_circulations())
