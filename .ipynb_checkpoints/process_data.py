@@ -53,7 +53,10 @@ def create_gross_income():
         gross_income_work['year']                                           = goods_circulation[3]
         gross_income_work['plan_of_commodity_circulations']                 = goods_circulation[1]
         gross_income_work['expected_performance_of_commodity_circulations'] = goods_circulation[2]
-        
+        gross_income_work['plan_of_gross_income']                           = float(gross_income_work['plan_of_commodity_circulations']) * float(gross_income_work['trade_discount']) * 0.01
+        gross_income_work['expected_performance_of_gross_income']           = float(gross_income_work['expected_performance_of_commodity_circulations']) * float(gross_income_work['trade_discount']) * 0.01
+
+
         gross_income_list.append(gross_income_work)
         
     return gross_income_list
