@@ -2,11 +2,11 @@
 """
 from data_service import get_goods, get_goods_circulations
 
-
 #структура запису для вихідних даних
 #gross_income - валовий дохід
-gross_income = {   
-    'name_of_goods_group'                             : "",       #найменування товарної групи
+gross_income = {
+    
+    'name_of_goods_group'                             : " ",      #найменування товарної групи
     'year'                                            : 0,        #рік
     'plan_of_commodity_circulations'                  : 0,        #план товарообігу
     'expected_performance_of_commodity_circulations'  : 0,        #очікуване виконання товарообігу
@@ -36,7 +36,6 @@ def create_gross_income():
                 return trade_discount[2]
         return "*** Назва не знайдена ***"
     
-
     #накопичувач валового доходу
     gross_income_list = []
 

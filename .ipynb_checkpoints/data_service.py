@@ -2,7 +2,6 @@
 -зчитування та вивід на екран
 """
 
-
 def get_goods():
     """повертає список товарів який отримує з файлу 'goods.txt'
 
@@ -32,8 +31,8 @@ def show_goods(goods):
       goods([list]):список товарів
     """
 
-    good_code_from = input("З якого кода вивести список товарів? Введіть код товара і натисніть <Enter>: ")
-    good_code_to = input("По який код вивести список товарів?  Введіть код товара і натисніть <Enter>: ")
+    good_code_from = input("З якого кода вивести список товарів?  Введіть код товара і натисніть <Enter>: ")
+    good_code_to = input("По який код вивести список товарів?   Введіть код товара і натисніть <Enter>: ")
     
     kol_lines = 0
     
@@ -47,7 +46,6 @@ def show_goods(goods):
 
 #goods = get_goods()
 #show_goods(goods)
-
 
 def get_goods_circulations():
   """повертає список товарообігу універмагу який отримує з файлу 'goods_circulations.txt'
