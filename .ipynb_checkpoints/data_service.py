@@ -2,6 +2,7 @@
 -зчитування та вивід на екран
 """
 
+
 def get_goods():
     """повертає список товарів який отримує з файлу 'goods.txt'
 
@@ -46,6 +47,7 @@ def show_goods(goods):
 
 #goods = get_goods()
 #show_goods(goods)
+
 
 def get_goods_circulations():
   """повертає список товарообігу універмагу який отримує з файлу 'goods_circulations.txt'
