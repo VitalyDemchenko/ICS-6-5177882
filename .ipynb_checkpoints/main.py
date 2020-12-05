@@ -10,14 +10,14 @@ from data_service import show_goods, show_goods_circulations, get_goods, get_goo
 
 MAIN_MENU = \
 """
-~~~~~~~~~~~~~~~~~~~ ОБРОБКА ВАЛОВОГО ДОХОДУ УНІВЕРМАГУ НА ПОТОЧНИЙ РІК ~~~~~~~~~~~~~~~~    
+~~~~~~~~~~~~~~~ ОБРОБКА ВАЛОВОГО ДОХОДУ УНІВЕРМАГУ НА ПОТОЧНИЙ РІК ~~~~~~~~~~~~~~~
 
 1 - вивід валового доходу на екран
 2 - запис валового доходу в файл
 3 - вивід списка товарообіга універмагу
 4 - вивід списка товарних груп
 0 - завершення роботи
--------------------------------------------
+----------------------------------------
 """
 
 TITLE = "ВАЛОВИЙ ДОХІД УНІВЕРМАГУ НА ПОТОЧНИЙ РІК"
@@ -45,7 +45,7 @@ def show_gross_income(gross_income_list):
     Args:
         gross_income_list ([type]): список валового доходу
     """
-    print(f"\n\n{TITLE:^111}")
+    print(f"\n\n{TITLE:^124}")
     print(HEADER)
 
     for gross_income in gross_income_list:
@@ -86,6 +86,7 @@ def write_gross_income(gross_income_list):
 while True:
 
     #вивід головного меню
+
     os.system('clear')
     print(MAIN_MENU)
     command_number = input("Введіть номер команди: ")
@@ -103,6 +104,7 @@ while True:
     elif command_number == '2':
         gross_income_list = create_gross_income()
         write_gross_income(gross_income_list)
+        input(STOP_MESSAGE)
 
     elif command_number == '3':
         goods_circulations = get_goods_circulations()

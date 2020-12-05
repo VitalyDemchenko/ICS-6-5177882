@@ -32,8 +32,8 @@ def show_goods(goods):
       goods([list]):список товарів
     """
 
-    good_code_from = input("З якого кода вивести список товарів? ")
-    good_code_to = input("По який код вивести список товарів? ")
+    good_code_from = input("З якого кода вивести список товарів?  Введіть код товара і натисніть <Enter>: ")
+    good_code_to = input("По який код вивести список товарів?   Введіть код товара і натисніть <Enter>: ")
     
     kol_lines = 0
     
@@ -78,8 +78,8 @@ def show_goods_circulations(goods_circulations):
       goods_circulations ([list]):список товарообігу
     """
 
-    goods_circulation_code_from = input("З якого кода вивести список товарообігу? ")
-    goods_circulation_code_to = input("По який код вивести список товарообігу? ")
+    goods_circulation_code_from = input("З якого кода вивести список товарообігу? Введіть код товара і натисніть <Enter>: ")
+    goods_circulation_code_to = input("По який код вивести список товарообігу?  Введіть код товара і натисніть <Enter>: ")
 
     kol_lines = 0
 
