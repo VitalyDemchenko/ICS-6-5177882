@@ -6,7 +6,7 @@ from data_service import get_goods, get_goods_circulations
 #структура запису для вихідних даних
 #gross_income - валовий дохід
 gross_income = {   
-    'name_goods_group'                                : "",       #найменування товарної групи
+    'name_of_goods_group'                             : "",       #найменування товарної групи
     'year'                                            : 0,        #рік
     'plan_of_commodity_circulations'                  : 0,        #план товарообігу
     'expected_performance_of_commodity_circulations'  : 0,        #очікуване виконання товарообігу
