@@ -93,3 +93,5 @@ def show_goods_circulations(goods_circulations):
 
 #goods_circulations = get_goods_circulations()
 #show_goods_circulations(goods_circulations)
+
+#перевірка на іншому компі
